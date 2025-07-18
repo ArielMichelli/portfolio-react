@@ -224,6 +224,85 @@ npm i -g vercel
 vercel
 ```
 
+### Deploy en Netlify
+
+#### Opción 1: Netlify CLI (Recomendado)
+
+```bash
+# Instala Netlify CLI
+npm install -g netlify-cli
+
+# Construye el proyecto
+npm run build
+
+# Login en Netlify
+netlify login
+
+# Deploy inicial
+netlify init
+
+# Deploy automático
+netlify deploy --prod
+```
+
+#### Opción 2: Drag & Drop
+
+1. Ejecuta `npm run build`
+2. Ve a [netlify.com](https://netlify.com)
+3. Arrastra la carpeta `dist` generada
+4. ¡Listo! 🎉
+
+#### Opción 3: Git Integration (CI/CD)
+
+1. **Conecta tu repositorio:**
+
+    - Ve a [Netlify Dashboard](https://app.netlify.com)
+    - Click en "New site from Git"
+    - Selecciona GitHub y tu repositorio
+
+2. **Configuración de build:**
+
+    ```
+    Build command: npm run build
+    Publish directory: dist
+    ```
+
+3. **Variables de entorno (si es necesario):**
+
+    ```
+    NODE_VERSION=18
+    ```
+
+4. **Deploy automático:** Cada push a `main` desplegará automáticamente
+
+#### Configuración adicional para Netlify
+
+Crea un archivo `netlify.toml` en la raíz del proyecto:
+
+```toml
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+#### Custom Domain en Netlify
+
+```bash
+# Con Netlify CLI
+netlify sites:update --name tu-portfolio
+
+# O desde el dashboard:
+# Site settings > Domain management > Add custom domain
+```
+
 ## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Si tienes sugerencias o mejoras:
