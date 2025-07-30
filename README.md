@@ -38,12 +38,13 @@ Portfolio personal moderno y responsivo desarrollado con las últimas tecnologí
 ## 🌐 Demo en Vivo
 
 <div align="center">
-  
-**🚀 [Ver Portfolio en Vivo](https://portfolio-am.netlify.app)**
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/tu-site-id/deploy-status)](https://app.netlify.com/sites/portfolio-am/deploys)
+### 🚀 [**VER PORTFOLIO EN VIVO**](https://portfolio-am.netlify.app)
 
-*Desplegado automáticamente con Netlify*
+![Netlify Deploy](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+_Deploy automático • Disponible 24/7 • Performance optimizada_
 
 </div>
 
