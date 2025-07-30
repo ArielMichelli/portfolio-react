@@ -35,6 +35,18 @@ Portfolio personal moderno y responsivo desarrollado con las últimas tecnologí
 
 > "La simplicidad es la máxima sofisticación" - Leonardo da Vinci
 
+## 🌐 Demo en Vivo
+
+<div align="center">
+  
+**🚀 [Ver Portfolio en Vivo](https://portfolio-am.netlify.app)**
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/tu-site-id/deploy-status)](https://app.netlify.com/sites/portfolio-am/deploys)
+
+*Desplegado automáticamente con Netlify*
+
+</div>
+
 <div align="center">
   <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-yellow?style=flat-square" alt="Estado"/>
   <img src="https://img.shields.io/badge/Versión-1.0.0-blue?style=flat-square" alt="Versión"/>
